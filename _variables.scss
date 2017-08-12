@@ -1,0 +1,46 @@
+// COLORS
+
+// theme
+$theme1: #f15d2f;
+$theme2: #ffba38;
+$theme3: #282f39;
+$theme4: #f7f1e3;
+$theme5: #2291bf;
+
+// greyscale
+$white: #fff;
+$black: #000;
+$gray: #999;
+
+
+// Shades of gray
+$light-gray: #f1f1f1;
+$dark-gray: #333;
+
+// Margins
+$margin-small: 10px;
+$margin-medium: 20px;
+$margin-large: 30px;
+
+// FONTS
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
