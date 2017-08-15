@@ -310,6 +310,8 @@ $column-padding5: ($gutter-1 * 8);
         // COLUMNS
         //--------------------------------
         .column {
+            display: flex;
+            flex-direction: column;
             flex-basis: auto;
             width: 100%;
             padding: $gutter-1;
