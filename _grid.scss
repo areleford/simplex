@@ -1,5 +1,7 @@
 // SIMPLEX GRID
 
+$grid-border-color: #ccc;
+
 // limits
 $limit-1-max-width: 1200px;
 $limit-2-max-width: 1400px;
@@ -50,12 +52,12 @@ $column-padding5: ($gutter-1 * 8);
 
         // STYLES
         &[sx-bordered="true"] {
-            border-top: 1px solid $black;
-            border-left: 1px solid $black;
+            border-top: 1px solid $grid-border-color;
+            border-left: 1px solid $grid-border-color;
 
             & > .column {
-                border-right: 1px solid $black;
-                border-bottom: 1px solid $black;
+                border-right: 1px solid $grid-border-color;
+                border-bottom: 1px solid $grid-border-color;
             }
         }
 
@@ -153,13 +155,21 @@ $column-padding5: ($gutter-1 * 8);
             // STYLES
             //-------------
             &[sx-bordered="true"] {
-                border-top: 1px solid $black;
-                border-left: 1px solid $black;
+                border-top: 1px solid $grid-border-color;
+                border-left: 1px solid $grid-border-color;
 
                 & > .column {
-                    border-right: 1px solid $black;
-                    border-bottom: 1px solid $black;
+                    border-right: 1px solid $grid-border-color;
+                    border-bottom: 1px solid $grid-border-color;
                 }
+            }
+
+            // PUSHED
+            &[sx-push="center"] {
+                justify-content: center;
+            }
+            &[sx-push="right"] {
+                justify-content: flex-end;
             }
 
             //-------------

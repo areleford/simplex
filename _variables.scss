@@ -15,6 +15,24 @@ $light-gray: #f1f1f1;
 $dark-gray: #333;
 
 // Margins
+$margin-tiny: 5px;
 $margin-small: 10px;
 $margin-medium: 20px;
 $margin-large: 30px;
+$margin-huge: 40px;
+
+*[sx-margin="tiny"] {
+    margin-bottom: $margin-tiny;
+}
+*[sx-margin="small"] {
+    margin-bottom: $margin-small;
+}
+*[sx-margin="medium"] {
+    margin-bottom: $margin-medium;
+}
+*[sx-margin="large"] {
+    margin-bottom: $margin-large;
+}
+*[sx-margin="huge"] {
+    margin-bottom: $margin-huge;
+}
